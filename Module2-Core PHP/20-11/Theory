@@ -1,0 +1,18 @@
+1)Arithmetic Op:
++,-,*,/,%
+
+2)Shorthand Op:
++=,-=,*=,/=,%=
+
+3)Logical Op:
+&&,||,!
+
+4)Relational Op:
+<,>,<=,>=,==,!=
+
+5)Ternary Op:
+(condition)?yes:no
+
+6)
+
+

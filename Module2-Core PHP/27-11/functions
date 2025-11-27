@@ -1,0 +1,19 @@
+function:code reusable
+if i need to run same code multiple time at that time you call functions
+
+Types of functions
+1)in-built function
+
+2)user defined function
+
+-> with para with return type
+-> with para without return type
+-> without para with return type
+-> without para without return type
+
+
+
+//    function FunctionName() : Returntype 
+//      {
+        
+//      }

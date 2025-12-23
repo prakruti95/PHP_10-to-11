@@ -1,0 +1,32 @@
+Procedure
+DELIMITER //
+
+	CREATE PROCEDURE deleteproc(INOUT myid int)
+    
+    BEGIN
+    	DELETE FROM employees WHERE id = myid;
+    END //
+
+DELIMITER ;
+
+Trigger:
+BEFORE,AFTER
+
+INSERT
+UPDATE
+DELETE
+
+DELIMITER $$
+
+	CREATE TRIGGER deletetrigger AFTER DELETE on susbcribers FOR EACH ROW
+    
+    BEGIN
+    	INSERT INTO audit_subscriber set action='deleted a subscriber',fname=old.fname;
+    END $$
+
+DELIMITER ;
+
+
+
+
+
